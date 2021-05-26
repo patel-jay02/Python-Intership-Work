@@ -1,0 +1,45 @@
+﻿body,html{
+	background-repeat:no-repeat;
+	height:100%;
+	width:100%;
+	background-size:cover;
+	background-color:gray;
+}
+table{
+    width:600px;
+    border-collapse:collapse;
+    overflow:auto;
+    box-shadow:0 0 20px rgba(0,0,0,0.5);
+}
+th,td{
+	padding:15px;
+	background-color:rgba(255,255,255,0.2);
+	color:#fff;
+}
+th{
+	text-align:left;
+	background-color:#8BC9C7;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:15px;
+}
+tbody td{
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+}
+
+tbody tr:hover{
+	background-color:rgba(255, 255, 255, 0.3);
+}
+tbody td:hover:before{
+	content:"";
+	position:absolute;
+	left:0;
+	right:0;
+	top:-9999px;
+	bottom:-9999px;
+	background-color:rgba(205, 129, 172,0.2);
+	z-index:-1;
+}
+
+   
