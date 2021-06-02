@@ -1,0 +1,1 @@
+Day6 Task is the instalation django and setup all file.
